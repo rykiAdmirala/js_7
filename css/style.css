@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #f8f8f8;
+	font: 16px Arial, sans-serif;
+}
+.wrapper {
+	width: 700px;
+	margin: 0 auto;
+	padding: 0 0 70px;
+}
+h1 {
+	margin: 1em 0 0;
+	text-align: center;
+}
+
+/* ** */
+.test-note {
+    margin: 6px 0 0;
+    font-size: 12px;
+    text-align: center;
+}
+.test-form {
+	margin: 30px 0 0;
+}
+.list li {
+    font-size: 20px;
+}
+.list input {
+    display: inline-block;
+    vertical-align: baseline;
+    margin: 0 1.1% 0 0;
+}
+.list .child-list {
+	margin: .6em 0 .6em 20px;
+	list-style: none;
+}
+.list .child-list li {
+    margin: 6px;
+    font-size: 16px;
+}
+.submit-btn {
+	display: block;
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 15px 0;
+    background: #CFE2F3;
+    border: 2px solid #313134;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background: #d6e7f5;
+}
+.submit-btn:active {
+	position: relative;
+	top: 2px;
+	outline: none;
+}
+.submit-btn:focus {
+	outline: none;
+}
